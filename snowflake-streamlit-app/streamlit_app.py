@@ -47,6 +47,12 @@ with row3_col1:
         st.write("表を直接編集し、行の追加・削除・変更をまとめてSnowflakeのテーブルに保存できます。")
         st.page_link("pages/5_editable_table.py", label="このアプリを開く", icon="🚀")
 
+with row3_col2:
+    with st.container(border=True):
+        st.markdown("### 🧭 経費申請ウィザード")
+        st.write("st.session_state で「入力→確認→登録」の複数ステップ画面を管理する申請フォームです。")
+        st.page_link("pages/6_expense_wizard.py", label="このアプリを開く", icon="🚀")
+
 st.markdown("---")
 st.markdown("#### 💡 使い方")
 st.markdown("""
