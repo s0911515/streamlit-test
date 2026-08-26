@@ -1,0 +1,9 @@
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - python=3.10
+  - streamlit
+  - reportlab
+  - pypdfium2
+  - pandas
