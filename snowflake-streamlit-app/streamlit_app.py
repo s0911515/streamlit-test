@@ -15,6 +15,7 @@ st.subheader("📌 利用可能なテストアプリケーション")
 
 row1_col1, row1_col2 = st.columns(2)
 row2_col1, row2_col2 = st.columns(2)
+row3_col1, row3_col2 = st.columns(2)
 
 with row1_col1:
     with st.container(border=True):
@@ -39,6 +40,12 @@ with row2_col2:
         st.markdown("### 📈 可視化ダッシュボード")
         st.write("Snowflakeのサンプルデータを集計し、期間・国でフィルタしながら売上推移をグラフで確認できます。")
         st.page_link("pages/4_dashboard.py", label="このアプリを開く", icon="🚀")
+
+with row3_col1:
+    with st.container(border=True):
+        st.markdown("### 📝 編集可能テーブル（商品マスタ管理）")
+        st.write("表を直接編集し、行の追加・削除・変更をまとめてSnowflakeのテーブルに保存できます。")
+        st.page_link("pages/5_editable_table.py", label="このアプリを開く", icon="🚀")
 
 st.markdown("---")
 st.markdown("#### 💡 使い方")
