@@ -7,3 +7,4 @@ dependencies:
   - reportlab
   - pypdfium2
   - pandas
+  - plotly
