@@ -23,9 +23,9 @@ with col1:
 
 with col2:
     with st.container(border=True):
-        st.markdown("### 📊 データ分析ダッシュボード（準備中）")
-        st.write("Snowflake上のサンプルデータを参照し、動的なグラフ描画や集計を行うコンポーネントのテスト用画面です。")
-        st.warning("⚠️ 現在開発中")
+        st.markdown("### 📊 サンプルデータ表示 & CSVダウンロード")
+        st.write("Snowflakeのサンプルデータベース（SNOWFLAKE_SAMPLE_DATA）からデータを取得し、表形式で表示・CSVダウンロードできます。")
+        st.page_link("pages/2_data_viewer.py", label="このアプリを開く", icon="🚀")
 
 st.markdown("---")
 st.markdown("#### 💡 使い方")
