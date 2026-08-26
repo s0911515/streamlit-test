@@ -19,7 +19,7 @@ with col1:
     with st.container(border=True):
         st.markdown("### 📄 高度PDF帳票プレビュー")
         st.write("DBアクセス不要。ReportLabで日本語PDFを動的生成し、pypdfium2により高画質画像としてプレビュー表示・ダウンロードが可能です。")
-        st.info("👈 左側のサイドバーメニューから **「1_pdf_preview」** を選択して起動してください。")
+        st.page_link("pages/1_pdf_preview.py", label="このアプリを開く", icon="🚀")
 
 with col2:
     with st.container(border=True):
@@ -30,6 +30,6 @@ with col2:
 st.markdown("---")
 st.markdown("#### 💡 使い方")
 st.markdown("""
-1. VS Code 上でコードを編集し、GitHub リポジトリへ `push` します。
-2. Snowflake 画面（または SQL ワークシート）で Git Fetch を実行すると、最新状態が即座に反映されます。
+1. Snowsight のこのアプリ編集画面でコードを直接編集・保存します。
+2. 保存すると、この画面がそのまま最新状態で再実行されます。
 """)
