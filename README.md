@@ -8,3 +8,7 @@
 
 ## データ取得アプリ
 <img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/9cb9896a-9ac2-45dc-87aa-05b8bc89f750" />
+
+## CSVアップロードアプリ
+<img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/c6d14a1b-3878-4dcb-862a-2754831ef97a" />
+<img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/c0d0f562-aa3e-41b4-a3a4-ade3035c3b0d" />
