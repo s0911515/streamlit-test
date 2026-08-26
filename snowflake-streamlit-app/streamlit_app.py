@@ -13,7 +13,7 @@ st.markdown("---")
 
 st.subheader("📌 利用可能なテストアプリケーション")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     with st.container(border=True):
@@ -26,6 +26,12 @@ with col2:
         st.markdown("### 📊 サンプルデータ表示 & CSVダウンロード")
         st.write("Snowflakeのサンプルデータベース（SNOWFLAKE_SAMPLE_DATA）からデータを取得し、表形式で表示・CSVダウンロードできます。")
         st.page_link("pages/2_data_viewer.py", label="このアプリを開く", icon="🚀")
+
+with col3:
+    with st.container(border=True):
+        st.markdown("### 📥 CSVアップロード & テーブル作成")
+        st.write("CSVファイルをアップロードし、内容をプレビューした上でSnowflakeのテーブルとして作成します。")
+        st.page_link("pages/3_csv_uploader.py", label="このアプリを開く", icon="🚀")
 
 st.markdown("---")
 st.markdown("#### 💡 使い方")
