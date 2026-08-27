@@ -8,3 +8,5 @@ dependencies:
   - pypdfium2
   - pandas
   - plotly
+  - qrcode
+  - pillow

@@ -16,6 +16,7 @@ st.subheader("📌 利用可能なテストアプリケーション")
 row1_col1, row1_col2 = st.columns(2)
 row2_col1, row2_col2 = st.columns(2)
 row3_col1, row3_col2 = st.columns(2)
+row4_col1, row4_col2 = st.columns(2)
 
 with row1_col1:
     with st.container(border=True):
@@ -52,6 +53,12 @@ with row3_col2:
         st.markdown("### 🧭 経費申請ウィザード")
         st.write("st.session_state で「入力→確認→登録」の複数ステップ画面を管理する申請フォームです。")
         st.page_link("pages/6_expense_wizard.py", label="このアプリを開く", icon="🚀")
+
+with row4_col1:
+    with st.container(border=True):
+        st.markdown("### 🏦 振込QRコード発行")
+        st.write("DBから取得した口座情報と入力金額をQRコードに埋め込みます。窓口端末でスキャンして振込画面が自動入力される、という体のデモです。")
+        st.page_link("pages/7_transfer_qr.py", label="このアプリを開く", icon="🚀")
 
 st.markdown("---")
 st.markdown("#### 💡 使い方")
