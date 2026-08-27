@@ -10,3 +10,4 @@ dependencies:
   - plotly
   - qrcode
   - pillow
+  - openpyxl

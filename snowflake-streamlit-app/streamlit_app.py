@@ -60,6 +60,12 @@ with row4_col1:
         st.write("DBから取得した口座情報と入力金額をQRコードに埋め込みます。窓口端末でスキャンして振込画面が自動入力される、という体のデモです。")
         st.page_link("pages/7_transfer_qr.py", label="このアプリを開く", icon="🚀")
 
+with row4_col2:
+    with st.container(border=True):
+        st.markdown("### 📗 Excel帳票出力")
+        st.write("openpyxlで罫線・色・Excel数式（数量×単価、SUM）付きの見積書(.xlsx)を生成してダウンロードできます。")
+        st.page_link("pages/8_excel_quote.py", label="このアプリを開く", icon="🚀")
+
 st.markdown("---")
 st.markdown("#### 💡 使い方")
 st.markdown("""
