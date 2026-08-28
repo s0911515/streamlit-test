@@ -73,6 +73,12 @@ with row5_col1:
         st.write("アプリを見ている本人の情報と、SQL実行時のロールを表示し、ロールに応じて管理者パネルの表示を切り替えます。")
         st.page_link("pages/9_user_role_demo.py", label="このアプリを開く", icon="🚀")
 
+with row5_col2:
+    with st.container(border=True):
+        st.markdown("### 🎨 UIパーツ総覧")
+        st.write("テキスト・入力・チャート・チャット・ダイアログなど、Streamlitの主要UI部品をカテゴリ別タブでまとめて確認できます。")
+        st.page_link("pages/10_ui_gallery.py", label="このアプリを開く", icon="🚀")
+
 st.markdown("---")
 st.markdown("#### 💡 使い方")
 st.markdown("""
