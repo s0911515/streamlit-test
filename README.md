@@ -30,3 +30,7 @@
 ## Excel帳票作成アプリ
 <img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/5583a4fc-10ea-4241-9d68-213c9a3c007b" />
 <img width="1361" height="872" alt="image" src="https://github.com/user-attachments/assets/487563f4-94e2-4921-8b24-2ec23db1caed" />
+
+## ユーザ権限確認アプリ
+<img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/d4d49bdb-e480-4ac9-8d24-af4d83569e68" />
+<img width="1748" height="1300" alt="image" src="https://github.com/user-attachments/assets/62b7b51d-cb40-49a6-a7d5-11988c4321a2" />
