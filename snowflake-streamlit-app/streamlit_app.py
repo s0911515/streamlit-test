@@ -17,6 +17,7 @@ row1_col1, row1_col2 = st.columns(2)
 row2_col1, row2_col2 = st.columns(2)
 row3_col1, row3_col2 = st.columns(2)
 row4_col1, row4_col2 = st.columns(2)
+row5_col1, row5_col2 = st.columns(2)
 
 with row1_col1:
     with st.container(border=True):
@@ -65,6 +66,12 @@ with row4_col2:
         st.markdown("### 📗 Excel帳票出力")
         st.write("openpyxlで罫線・色・Excel数式（数量×単価、SUM）付きの見積書(.xlsx)を生成してダウンロードできます。")
         st.page_link("pages/8_excel_quote.py", label="このアプリを開く", icon="🚀")
+
+with row5_col1:
+    with st.container(border=True):
+        st.markdown("### 🪪 ログインユーザー/ロール認識")
+        st.write("アプリを見ている本人の情報と、SQL実行時のロールを表示し、ロールに応じて管理者パネルの表示を切り替えます。")
+        st.page_link("pages/9_user_role_demo.py", label="このアプリを開く", icon="🚀")
 
 st.markdown("---")
 st.markdown("#### 💡 使い方")
